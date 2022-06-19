@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #292929;
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+
+#average{
+    background-color: #4d4d4d;
+    padding: 10px;
+}
+
+.spacer{
+    margin-bottom: 10px;
+}
+
+button, input{
+    outline: 0;
+    border: 0;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #4d4d4d;
+    color: white;
+}
+
+button:hover{
+    background-color: #686868;
+}

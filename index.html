@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS CODESPEED SANDBOX</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <p>JS CODESPEED SANDBOX</p>
+    <button onclick="goFasterCheck()">Замерить скорость</button>
+    <button onclick="help()">Инструкция по использованию</button>
+    <div class="spacer"></div>
+    <p>Средний результат выполнения: <span id="average"> 0 ms</span></p>
+    <div class="spacer"></div>
+    <hr>
+    <div class="spacer"></div>
+    <input type="number" value="100" id="countTest"><span> Количество выполнений</span>
+    <div class="spacer"></div>
+    <span>Чем больше, тем точнее будет результат теста</span>
+    <div class="spacer"></div>
+    <hr>
+    <p>Все результаты выполнения: </p>
+    <div class="spacer"></div>
+    <div id="res">
+
+    </div>
+    <script src="logic.js"></script>
+</body>
+</html>
